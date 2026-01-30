@@ -1,0 +1,4 @@
+T5/data_make filter=lfs diff=lfs merge=lfs -text
+T5/data_make/noreduce/train/*/negative_fragment.txt filter=lfs diff=lfs merge=lfs -text
+T5/data_make/noreduce/train/*/train.txt filter=lfs diff=lfs merge=lfs -text
+RFCI_RMIC/model/irap/blastDB/taxdb.btd filter=lfs diff=lfs merge=lfs -text
