@@ -12,4 +12,7 @@ RFCI_RMIC/model/irap/*.tar.gz filter=lfs diff=lfs merge=lfs -text
 RFCI_RMIC/model/irap/blastDB/*.phr filter=lfs diff=lfs merge=lfs -text
 RFCI_RMIC/model/irap/blastDB/*.pin filter=lfs diff=lfs merge=lfs -text
 RFCI_RMIC/model/irap/blastDB/*.psq filter=lfs diff=lfs merge=lfs -text
-
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.phr filter=lfs diff=lfs merge=lfs -text
+*.pin filter=lfs diff=lfs merge=lfs -text
+*.psq filter=lfs diff=lfs merge=lfs -text
