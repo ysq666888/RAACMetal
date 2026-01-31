@@ -15,3 +15,5 @@ T5/data_make/noreduce/train/*/train.txt filter=lfs diff=lfs merge=lfs -text
 *.phr filter=lfs diff=lfs merge=lfs -text
 *.btd filter=lfs diff=lfs merge=lfs -text
 RFCI_RMIC/model/irap/blastDB/taxdb.btd filter=lfs diff=lfs merge=lfs -text
+RFCI_RMIC/model/irap/pdbaa.tar.gz filter=lfs diff=lfs merge=lfs -text
+RFCI_RMIC/model/irap/blastDB/pdbaa.phr filter=lfs diff=lfs merge=lfs -text
